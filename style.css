@@ -1,6 +1,6 @@
 #header_name {
-    font-size: large;
-    font-family: fantasy;
+    text-size-adjust: 100px;
+    font-family: cursive;
     color:darkcyan;
-    justify-content: center;
+    text-align: center;
 }
