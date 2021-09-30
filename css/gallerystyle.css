@@ -8,7 +8,7 @@
 }
 
 img {
+    margin-top: 2%;
     flex-grow: initial;
     flex-shrink: inherit;
-    margin-bottom: 20px;
 }
