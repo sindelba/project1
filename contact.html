@@ -4,6 +4,11 @@
         <link rel = "stylesheet" href = "contactstyle.css" type="text/css">
         <link rel = "stylesheet" href = "style.css" type="text/css">
     </head>
+    <body>
+    <div id="header_name">
+        <h1>Contact</h1>
+    </div>
+    
     <ul class="nav_bar">
         <li><a href="index.html" class="left non_view_page">Home</a></li>
         <li><a href="about.html" class="left non_view_page">About</a></li>
@@ -11,9 +16,11 @@
         <li><a href="gallery.html" class="left non_view_page">Gallery</a></li>
         <li><a href="contact.html" class="left view_page">Contact</a></li>
     </ul>
-    <div id="header_name">
-        <h1>
-            Contact
-        </h1>
+    <div class="contact_box">
+        <input type="text" name="name*" value placeholder="Name*" required maxlength="100"><br>
+        <input type="text" name="email*" value placeholder="Email*" required maxlength="250"><br>
+        <textarea id="message" placeholder="Type your message here..."></textarea>
+        <button class="submit">Submit</button>
     </div>
+</body>
 </html>
