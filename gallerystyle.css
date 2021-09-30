@@ -1,0 +1,13 @@
+#pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+img {
+    flex-grow: initial;
+    flex-shrink: inherit;
+}
