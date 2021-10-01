@@ -5,10 +5,30 @@
     color:darkcyan;
     text-align: center;
 }
+body {
+    height: 100%;
+    margin: 0;
+}
+html {
+    height: 100%;
+    margin: 0;
+    background-color:lightgray;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 #photo {
     display: flex;
     justify-content: center;
     margin-top: 3%;
+}
+#footer, .push {
+    height: 50px;
+    color: darkcyan;
+    font-size: 1.25em;
+    text-align: center;
+    font-family: Georgia;
 }
 p {
     margin-left: 4%;
@@ -36,6 +56,7 @@ nav {
     padding-top: 0.4em;
     padding-bottom: 0.4em;
     font-size: 2em;
+    font-family: sans-serif;
 }
 .link > a:hover {
     background-color:rgb(3, 173, 173);
