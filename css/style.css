@@ -1,19 +1,14 @@
 #header_name {
-    font-size:2em;
+    font-size: 2em;
     font-weight: bolder;
     font-family: Lucida Handwriting;
     color:darkcyan;
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 #photo {
     display: flex;
-    flex-direction: row;
-    overflow-y: hidden;
     justify-content: center;
-    flex-shrink: inherit;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 p {
     margin-left: 4%;
@@ -23,7 +18,7 @@ p {
     color: black;
 }
 h1 {
-    margin: 0;
+    margin: 0.5%;
 }
 ul > .nav_bar {
     margin: 0;
@@ -52,7 +47,7 @@ nav {
 
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: flex-start;
 }
 #hamburger-button {
     display: none;
