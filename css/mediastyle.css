@@ -1,0 +1,10 @@
+video {
+    margin: 3%;
+}
+#videos {
+    display: flex;
+    justify-content: center;
+}
+p {
+    text-align: center;
+}
