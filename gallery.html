@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>Bri Sindelar</title>
         <link rel = "stylesheet" href = "css/gallerystyle.css" type="text/css">
         <link rel = "stylesheet" href = "css/style.css" type="text/css">
         <link rel = "icon"
@@ -8,61 +9,61 @@
     </head>
     <body>
         <div class="wrapper">
-    <header>
-        <svg id="hamburger-button" viewBox="0 0 100 80" width="30" height="30">
-            <rect fill="black" width="100" height="15"></rect>
-            <rect fill="black" y="30" width="100" height="15"></rect>
-            <rect fill="black" y="60" width="100" height="15"></rect>
-        </svg>
-        <nav>
-            <ul class="nav_bar">
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="about.html">About</a></li>
-                <li class="link"><a href="media.html">Media</a></li>
-                <li class="link"><a href="gallery.html">Gallery</a></li>
-                <li class="link"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="header_name">
-        <h1>
-            Gallery
-        </h1>
-    </div>
-    <div id="pictures">
-        <img width="270" height="340" src="images/Bridget_blue_sweater.jpg" 
-            alt="Bridget smiling outdoors in a light blue sweater">
-        <img width="330" height="230" src="images/Bridget_ariel.JPG"
-            alt="Bridget on stage dressed as Ariel sitting in her grotto">
-        <img width="270" height="340" src="images/Bridget_jean_jacket.jpg"
-            alt="Bridget soft smiling outdoors in a sleeveless jean jacket">
-        <img width="320" height="240" src="images/Bridget_jazz_action.JPG"
-            alt="Bridget singing on a stage in a black and gold dress">
-        <img width="270" height="340" src="images/Bridget_pino_jump.JPG"
-            alt="Bridget jumping in the air dressed as Pinocchio with the Blue Fairy behind her">
-        <img width="300" height="240" src="images/Bridget_green_3.jpg"
-            alt="Bridget smiling outside wearing a green sweater">
-        <img width="270" height="330" src="images/Bridget_ssti_showcase.JPG"
-            alt="Bridget smiling and singing into a microphone on stage in a jean skirt and sweater">
-        <img width="300" height="260" src="images/Bridget_self_tape.JPG"
-            alt="A black and white photo of Bridget singing and smiling into the distance">
-        <img width="270" height="300" src="images/Bridget_jazz_smile.JPG"
-            alt="Bridget smiling and holding a microphone in a black and gold dress">
-    </div>
-    <div class="push"></div>
+        <header>
+            <svg id="hamburger-button" viewBox="0 0 100 80" width="30" height="30">
+                <rect fill="black" width="100" height="15"></rect>
+                <rect fill="black" y="30" width="100" height="15"></rect>
+                <rect fill="black" y="60" width="100" height="15"></rect>
+            </svg>
+            <nav>
+                <ul class="nav_bar">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="about.html">About</a></li>
+                    <li class="link"><a href="media.html">Media</a></li>
+                    <li class="link"><a href="gallery.html">Gallery</a></li>
+                    <li class="link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="header_name">
+            <h1>
+                Gallery
+            </h1>
         </div>
-    <div id="footer">
-        "The stage is not merely the meeting place of all the arts, 
-        but is also the return of art to life." ~ Oscar Wilde
-    </div>
-    </body>
-    <script>
-        const navlinks = document.getElementsByTagName('nav')[0];
-        const hamburgerButton = document.getElementById('hamburger-button');
+        <div id="pictures">
+            <img width="270" height="340" src="images/Bridget_blue_sweater.jpg" 
+                alt="Bridget smiling outdoors in a light blue sweater">
+            <img width="330" height="230" src="images/Bridget_ariel.JPG"
+                alt="Bridget on stage dressed as Ariel sitting in her grotto">
+            <img width="270" height="340" src="images/Bridget_jean_jacket.jpg"
+                alt="Bridget soft smiling outdoors in a sleeveless jean jacket">
+            <img width="320" height="240" src="images/Bridget_jazz_action.JPG"
+                alt="Bridget singing on a stage in a black and gold dress">
+            <img width="270" height="340" src="images/Bridget_pino_jump.JPG"
+                alt="Bridget jumping in the air dressed as Pinocchio with the Blue Fairy behind her">
+            <img width="300" height="240" src="images/Bridget_green_3.jpg"
+                alt="Bridget smiling outside wearing a green sweater">
+            <img width="270" height="330" src="images/Bridget_ssti_showcase.JPG"
+                alt="Bridget smiling and singing into a microphone on stage in a jean skirt and sweater">
+            <img width="300" height="260" src="images/Bridget_self_tape.JPG"
+                alt="A black and white photo of Bridget singing and smiling into the distance">
+            <img width="270" height="300" src="images/Bridget_jazz_smile.JPG"
+                alt="Bridget smiling and holding a microphone in a black and gold dress">
+        </div>
+        <div class="push"></div>
+        </div>
+        <div id="footer">
+            "The stage is not merely the meeting place of all the arts, 
+            but is also the return of art to life." ~ Oscar Wilde
+        </div>
+        <script>
+            const navlinks = document.getElementsByTagName('nav')[0];
+            const hamburgerButton = document.getElementById('hamburger-button');
 
-        function toggleNavlinks() {
-            navlinks.classList.toggle('open'); 
-        }
-        hamburgerButton.addEventListener('click', toggleNavlinks);
-    </script> 
+            function toggleNavlinks() {
+                navlinks.classList.toggle('open'); 
+            }
+            hamburgerButton.addEventListener('click', toggleNavlinks);
+        </script> 
+    </body>
 </html>
