@@ -7,6 +7,21 @@
     padding: 0;
     margin: 0;
 }
+#photo {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    justify-content: center;
+    flex-shrink: inherit;
+    margin-top: 2%;
+}
+p {
+    margin-left: 4%;
+    margin-right: 2%;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    color: black;
+}
 h1 {
     margin: 0;
 }
@@ -77,5 +92,4 @@ nav {
         font-size: 1.5em;
         margin-right: 0;
     }
-    
 }
