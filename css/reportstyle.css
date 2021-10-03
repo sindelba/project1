@@ -14,3 +14,8 @@ p, li {
     margin-right: 2%;
     font-size: 1.1em;
 }
+
+#end {
+    text-align: center;
+    font-size: 1.3em;
+}
